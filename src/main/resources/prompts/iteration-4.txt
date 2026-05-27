@@ -1,0 +1,9 @@
+Perform ADD iteration 4 for the Hotel Pricing System.
+
+Focus:
+- Address modifiability and operability.
+- Consider support for future protocols, CI/CD, monitoring, and maintainable work allocation.
+- Stay within the provided assignment constraints and do not introduce external assumptions.
+- Include Step 2 to Step 7 only.
+- Include one Mermaid or PlantUML diagram.
+- Keep the answer concise but complete for a course report.

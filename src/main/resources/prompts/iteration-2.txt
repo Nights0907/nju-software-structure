@@ -1,0 +1,9 @@
+Perform ADD iteration 2 for the Hotel Pricing System.
+
+Focus:
+- Identify structures supporting the main functionality.
+- Emphasize HPS-2 modify price, HPS-3 query price, HPS-4 manage hotel, and HPS-5 manage pricing rules.
+- Refine the most important elements selected from iteration 1.
+- Include Step 2 to Step 7 only.
+- Include one Mermaid or PlantUML diagram.
+- Keep the answer concise but complete for a course report.

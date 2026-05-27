@@ -1,0 +1,9 @@
+Perform ADD iteration 1 for the Hotel Pricing System.
+
+Focus:
+- Establish the overall system structure.
+- Use the provided constraints, concerns, and quality attributes.
+- Keep the design at system/container-level rather than detailed internals.
+- Include Step 2 to Step 7 only.
+- Include one Mermaid or PlantUML diagram.
+- Keep the answer concise but complete for a course report.

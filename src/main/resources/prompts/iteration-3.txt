@@ -1,0 +1,9 @@
+Perform ADD iteration 3 for the Hotel Pricing System.
+
+Focus:
+- Address reliability and availability.
+- Refine the architecture to support reliability target and 99.9% availability.
+- Stay within the provided assignment constraints and do not introduce external assumptions.
+- Include Step 2 to Step 7 only.
+- Include one Mermaid or PlantUML diagram.
+- Keep the answer concise but complete for a course report.

@@ -1,0 +1,38 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: hotel-pricing-add
+  config:
+    import: optional:classpath:application-local.yml
+  ai:
+    dashscope:
+      api-key: ${DASHSCOPE_API_KEY:}
+      chat:
+        options:
+          model: ${DASHSCOPE_CHAT_MODEL:qwen-plus}
+    retry:
+      max-attempts: 1
+      on-client-errors: false
+      
+
+assignment:
+  model: ${spring.ai.dashscope.chat.options.model}
+  log-dir: logs
+  http:
+    connect-timeout: ${DASHSCOPE_CONNECT_TIMEOUT:10s}
+    read-timeout: ${DASHSCOPE_READ_TIMEOUT:120s}
+
+logging:
+  level:
+    edu.assignment.hpsadd.AddIterationService: INFO
+    com.alibaba.cloud.ai.dashscope: DEBUG
+    org.springframework.web.client: DEBUG
+    org.springframework.http.client: DEBUG
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
