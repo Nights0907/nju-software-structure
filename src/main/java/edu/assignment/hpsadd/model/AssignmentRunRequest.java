@@ -1,4 +1,4 @@
-package edu.assignment.hpsadd;
+package edu.assignment.hpsadd.model;
 
 import jakarta.validation.constraints.NotBlank;
 

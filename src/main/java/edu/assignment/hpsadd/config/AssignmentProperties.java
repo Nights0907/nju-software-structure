@@ -1,4 +1,4 @@
-package edu.assignment.hpsadd;
+package edu.assignment.hpsadd.config;
 
 import java.time.Duration;
 import org.springframework.boot.context.properties.ConfigurationProperties;

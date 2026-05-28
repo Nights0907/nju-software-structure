@@ -26,7 +26,7 @@ assignment:
 
 logging:
   level:
-    edu.assignment.hpsadd.AddIterationService: INFO
+    edu.assignment.hpsadd.service.AddIterationService: INFO
     com.alibaba.cloud.ai.dashscope: DEBUG
     org.springframework.web.client: DEBUG
     org.springframework.http.client: DEBUG

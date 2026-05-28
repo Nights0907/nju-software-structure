@@ -1,4 +1,4 @@
-package edu.assignment.hpsadd;
+package edu.assignment.hpsadd.infrastructure.prompt;
 
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
